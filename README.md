@@ -145,14 +145,13 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
-
-    ```
+```
 
 ## OUTPUT:
 
-!['image'](images/serversideoutput.png)
+![image](images/serversideoutput.png)
 ### Home Page:
-!['image'](images/calculation.png)
+![image](images/calculation.png)
 
 ## Result:
 
